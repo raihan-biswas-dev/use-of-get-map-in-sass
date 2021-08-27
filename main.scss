@@ -1,0 +1,13 @@
+/*Use of map.get function in sass */
+
+$color:(
+      headingcolor:green,
+      paragraphcolor: blue,
+);
+
+
+.test{
+      h1{
+            color: map-get($color, headingcolor);
+      }
+}
